@@ -1,0 +1,24 @@
+{
+  "T_GROUP": {
+    "key": "Valore",
+    "nestedObject": {
+      "nestedKey": "Valore nidificato"
+    },
+    "interpolation": "Il tuo valore inserito: {{val}}",
+    "pluralization": "Puoi lasciare questo vuoto se hai solo bisogno delle versioni contestualizzate",
+    "pluralization_one": "Possiedo un uccello",
+    "pluralization_other": "Possiedo {{count}} uccelli",
+    "dateTime": "{{date, DATETIME}}"
+  },
+  "T_ANIMALS": {
+    "bird": {
+      "budgie": "Il mio parrocchetto è piccolo ma coccoloso.",
+      "cockatoo": "Il mio cacatua è pazzo. Evocerà {{monster}} su {{date, DATE}}."
+    }
+  },
+  "T_SENTENCES": {
+    "myBirds": "",
+    "myBirds_one": "Possiedo un uccello adorabile.",
+    "myBirds_other": "Possiedo {{count}} uccelli incantevoli."
+  }
+}

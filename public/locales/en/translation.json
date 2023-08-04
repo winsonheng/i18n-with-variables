@@ -1,0 +1,24 @@
+{
+  "T_GROUP": {
+    "key": "Value",
+    "nestedObject": {
+      "nestedKey": "Nested Value"
+    },
+    "interpolation": "Your inserted value: {{val}}",
+    "pluralization": "You can leave this blank if you only need the contextualized versions",
+    "pluralization_one": "I own a bird",
+    "pluralization_other": "I own {{count}} birds",
+    "dateTime": "{{date, DATETIME}}"
+  },
+  "T_ANIMALS": {
+    "bird": {
+      "budgie": "My budgie is small but cuddly.",
+      "cockatoo": "My cockatoo is crazy. He will summon {{monster}} on {{date, DATE}}."
+    }
+  },
+  "T_SENTENCES": {
+    "myBirds": "",
+    "myBirds_one": "I own an adorable bird.",
+    "myBirds_other": "I own {{count}} lovely birds."
+  }
+}

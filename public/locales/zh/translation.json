@@ -1,0 +1,24 @@
+{
+  "T_GROUP": {
+    "key": "值",
+    "nestedObject": {
+      "nestedKey": "嵌套值"
+    },
+    "interpolation": "插入的值：{{val}}",
+    "pluralization": "如果只需要上下文版本，可以留空",
+    "pluralization_one": "我拥有一只鸟",
+    "pluralization_other": "我拥有{{count}}只鸟",
+    "dateTime": "{{date, DATETIME}}"
+  },
+  "T_ANIMALS": {
+    "bird": {
+      "budgie": "我的文鸟虽小却很可爱。",
+      "cockatoo": "我的凤头鹦鹉很疯狂。他会在{{date, DATE}}召唤{{monster}}。"
+    }
+  },
+  "T_SENTENCES": {
+    "myBirds": "",
+    "myBirds_one": "我拥有一只可爱的鸟。",
+    "myBirds_other": "我拥有{{count}}只可爱的鸟。"
+  }
+}
