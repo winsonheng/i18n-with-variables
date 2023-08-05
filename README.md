@@ -1,7 +1,7 @@
 # No more hard-coding translation keys in your JS app!
 
 ### Auto Generation of translation.json files
-* Create your JSON schema in one location and run an npm command to generate the translation files
+* Ability to create and modify your JSON schema in a single location and generate the JSON files via a single command
 * Ensures your JSON files are consistent and up to date
 * You may keep any existing translations by setting `KEEP_EXISTING_TRANSLATIONS = true`
 
