@@ -1,6 +1,14 @@
 # No more hard-coding translation keys in your JS app!
 
-Instead of typing `t("animal.bird.budgie")`, you can do `t(T_ANIMAL.bird.budgie)` which simplifies typing and promotes ease of refactoring.
+### Auto Generation of translation.json files
+* Create your JSON schema in one location and run an npm command to generate the translation files
+* Ensures your JSON files are consistent and up to date
+* You may keep any existing translations by setting `KEEP_EXISTING_TRANSLATIONS = true`
+
+### Use variables to access translations rather than hard-coded keys
+* Instead of typing `t("animal.bird.budgie")`, you can do `t(T_ANIMAL.bird.budgie)`
+* Ensures that you will always reference the correct key
+* Simplifies typing and makes refactoring a breeze!
 
 ### How does it work?
 
