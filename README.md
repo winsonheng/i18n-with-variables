@@ -1,14 +1,23 @@
 # No more hard-coding translation keys in your JS app!
 
-### Auto Generation of translation.json files
+### Auto generation of translation.json files
 * Ability to create and modify your JSON schema in a single location and generate the JSON files via a single command
 * Ensures your JSON files are consistent and up to date
 * You may keep any existing translations by setting `KEEP_EXISTING_TRANSLATIONS = true`
 
-### Use variables to access translations rather than hard-coded keys
-* Instead of typing `t("animal.bird.budgie")`, you can do `t(T_ANIMAL.bird.budgie)`
+### Error-free key mapping
+* Use variables to access translations rather than hard-coded keys _(e.g. instead of `t("animal.bird.budgie")`, you'll do `t(T_ANIMAL.bird.budgie)`)_
 * Ensures that you will always reference the correct key
 * Simplifies typing and makes refactoring a breeze!
+
+### Support new languages in just 3 lines of code
+* Add the following to constants/languages.js:
+```
+newLanguage: {
+  nativeName: "Name"
+}
+```
+* Then run `npm run i18n-build`
 
 ### How does it work?
 
